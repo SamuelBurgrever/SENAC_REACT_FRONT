@@ -83,6 +83,8 @@ const Cadastro = () => {
                         <div className="continue-button">
                             <button><a href="#">Continuar</a> </button>
                         </div>
+
+                        
                     </form>
                 </div>
 

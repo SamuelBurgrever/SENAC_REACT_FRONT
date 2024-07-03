@@ -122,8 +122,9 @@
 }
 
 .continue-button button {
-    width: 100%;
+    width: 50%;
     margin-top: 2.5rem;
+    margin-left: 27%;
     border: none;
     background-color: #FFBB00;
     padding: 0.62rem;
