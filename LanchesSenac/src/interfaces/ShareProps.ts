@@ -36,5 +36,4 @@ symbol: string,
   updatedAt: null,
   active: boolean,
   isDeleted: boolean
-
 }

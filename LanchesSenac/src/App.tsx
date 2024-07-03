@@ -5,7 +5,8 @@ import Autor from "./Pages/Autor/Autor";
 import Cardapio from "./Pages/Cardapio/Cardapio";
 import Login from "./Pages/Login/Login";
 import Cadastro from "./Pages/Login/Cadastro";
-import Share from "./Pages/Shares/share";
+import Share from "./Pages/Shares/Share";
+
 
 const App = () => {
   return (
@@ -15,12 +16,11 @@ const App = () => {
         <Route path="/admin" />
         <Route path="/autor" element={<Autor />} />
         <Route path="/cardapio" element={<Cardapio />} />
-        <Route path="/login" element={<Login />}/>
+        <Route path="/login" element={<Login/>}/>
         <Route path="/cadastro" element={<Cadastro/>}/>
         <Route path="/share" element={<Share/>}/>
       </Routes>
     </Router>
   );
 };
-
 export default App;
