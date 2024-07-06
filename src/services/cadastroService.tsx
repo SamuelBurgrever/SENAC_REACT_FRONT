@@ -14,7 +14,7 @@ export const cadastrar = (cadastro: cadastroProps) => {
     return apiClient.post<any>('cadastro', cadastro);
 }
 
-
+//teste
 
 
 

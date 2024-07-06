@@ -135,3 +135,5 @@ const componenteCadastro = () => {
 };
 
 export default componenteCadastro;
+
+//teste
